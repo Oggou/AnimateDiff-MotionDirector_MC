@@ -46,11 +46,12 @@ git clone https://huggingface.co/runwayml/stable-diffusion-v1-5 models/StableDif
 ```
 https://huggingface.co/guoyww/animatediff/resolve/main/mm_sd_v14.ckpt
 ```
-For ToonYou Outputs Download toonyou_beta6.safetensors 
-### Place it in AnimateDiff-MotionDirector_MC/models/DreamBoothLora
+
+### For ToonYou Outputs Download toonyou_beta6.safetensors 
 ```
 https://huggingface.co/guoyww/animatediff/resolve/main/mm_sd_v14.ckpt
 ```
+Place it in AnimateDiff-MotionDirector_MC/models/DreamBoothLora
 ## Training Instuctions
 
 Open `./configs/training/motion_director/my_video.yaml`.
