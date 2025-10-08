@@ -32,6 +32,7 @@ conda env create -f environment.yaml
 conda activate animatediff-motiondirector
 
 pip install -r requirements.txt
+pip install "huggingface_hub<0.16.0"
 ```
 
 ### Download Stable Diffusion V1.5
@@ -41,12 +42,14 @@ git lfs install
 git clone https://huggingface.co/runwayml/stable-diffusion-v1-5 models/StableDiffusion/
 ```
 
-### Download V3 Motion Module
+### Download V3 Motion Module - Place it in AnimateDiff-MotionDirector_MC/models/Motion_module
 ```
-git lfs install
-https://huggingface.co/guoyww/animatediff/blob/main/v3_sd15_mm.ckpt
+https://huggingface.co/guoyww/animatediff/resolve/main/mm_sd_v14.ckpt
 ```
-
+### For ToonYou Outputs Download toonyou_beta6.safetensors - Place it in AnimateDiff-MotionDirector_MC/models/DreamBoothLora
+```
+https://huggingface.co/guoyww/animatediff/resolve/main/mm_sd_v14.ckpt
+```
 ## Training Instuctions
 
 Open `./configs/training/motion_director/my_video.yaml`.
