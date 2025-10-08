@@ -39,7 +39,7 @@ pip install "huggingface_hub<0.16.0"
 
 ```
 git lfs install
-git clone https://huggingface.co/runwayml/stable-diffusion-v1-5 models/StableDiffusion/
+git clone https://huggingface.co/stable-diffusion-v1-5/stable-diffusion-v1-5
 ```
 
 ### Download V3 Motion Module - Place it in AnimateDiff-MotionDirector_MC/models/Motion_module
